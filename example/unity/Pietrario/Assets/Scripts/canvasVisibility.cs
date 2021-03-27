@@ -33,6 +33,11 @@ public class canvasVisibility: MonoBehaviour {
         menu.SetActive(isShowing);
     }
 
+    public void offFunc()
+    {
+        menu.SetActive(false);
+    }
+
     public void inventoryfunc() {
         inventoryIsShowing = !inventoryIsShowing;
         inventory.SetActive(inventoryIsShowing);

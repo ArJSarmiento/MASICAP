@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Se encarga del control general sobre el pomodoro, da impresiones de los eventos en consola, y permite llevar el control de algoritmo
+//SIt is in charge of the general control over the pomodoro, gives impressions of the events on the console, and allows to keep track of the algorithm
 public class TimeMaster: MonoBehaviour {
     DateTime currentDate;
     DateTime oldDate;

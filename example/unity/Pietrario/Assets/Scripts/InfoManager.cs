@@ -16,6 +16,6 @@ public class InfoManager : MonoBehaviour
 
     public void goToIG()
     {
-        Application.OpenURL("https://www.instagram.com/pietrario_/");
+        Application.OpenURL("https://www.instagram.com/masicap_app/");
     }
 }

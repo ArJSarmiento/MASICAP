@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 //Todos estos métodos hacen refencia a los cambios de escenas que serán llamado por lo botones dentro de unity, así mostrando y ocultando según sea indicado
 public class ChangeScenes: MonoBehaviour {
     public Animator transition;
+    public RealTimeCounter realTimeCounter;
 
     public void ChangeSceneStart() {
         ChangeSceneWithTransition(0);
@@ -18,6 +19,8 @@ public class ChangeScenes: MonoBehaviour {
     }
 
     public void ChangeScenePietrarioList() {
+        if (realTimeCounter != null) realTimeCounter.SaveRest();
+
         ChangeSceneWithTransition(2);
     }
 
@@ -26,6 +29,8 @@ public class ChangeScenes: MonoBehaviour {
     }
 
     public void ChangeSceneAR() {
+        realTimeCounter.SaveRest();
+
         ChangeSceneWithTransition(4);
     }
 

@@ -10,18 +10,22 @@ public class TutorialManager: MonoBehaviour {
 
     [SerializeField] public GameObject pomodoroF3;
 
+    public RealTimeCounter real;
+
     private
     const string ownPropertyName = "pomodoroTutorialHasBeenCalled";
     // Update is called once per frame
 
     /*
-     *    Prefiero no usar un toggle para show/hide porque
-     *    el tutorial se mostraría 1 o pocas veces (si el usuario lo desea).
-     *    llamar explícitamente show y hide da claridad respecto a qué se quiere hacer con la interfáz.
+     *   I prefer not to use a toggle for show / hide because
+     * the tutorial would be shown 1 or few times (if the user wishes).
+     * explicitly call show and hide gives clarity about what you want to do with the interface.
      */
 
     public void showPomodoroF1() {
         if (!hasBeenCalled(false, ownPropertyName)) {
+            real.timerSetUpMin =  24f;
+            real.textTimer.text = real.timerSetUpMin.ToString("0");
             pomodoroF1.SetActive(true);
         }
     }

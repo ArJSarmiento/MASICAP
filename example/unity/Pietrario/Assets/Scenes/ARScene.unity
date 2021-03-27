@@ -277,9 +277,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
     m_FontSize: 32
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -289,7 +289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continuar
+  m_Text: Continue
 --- !u!222 &69986900
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -730,8 +730,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.3, y: -1.6}
-  m_SizeDelta: {x: 693.8788, y: 100.138885}
+  m_AnchoredPosition: {x: 171.2, y: -1.6}
+  m_SizeDelta: {x: 642.3185, y: 100.138885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248380874
 MonoBehaviour:
@@ -752,9 +752,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
+    m_FontSize: 23
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -764,8 +764,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Este es el nivel de luz de tu pietrario, y sube cuando lo expones a lugares
-    brillantes.
+  m_Text: This is the light level of your stone, and it rises when you expose it
+    to bright places.
 --- !u!222 &248380875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1758,7 +1758,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
     m_FontSize: 32
     m_FontStyle: 1
     m_BestFit: 0
@@ -1770,7 +1770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dejar de asolear
+  m_Text: Stop sunning
 --- !u!222 &524064484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2339,7 +2339,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continuar
+  m_Text: Continue
 --- !u!222 &856881735
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2434,7 +2434,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 031e4f7a8e43e4c4c80f26d6ead3905d, type: 3}
 --- !u!95 &857018880 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 7047152027058574097, guid: 031e4f7a8e43e4c4c80f26d6ead3905d,
+  m_CorrespondingSourceObject: {fileID: 4021982628179968485, guid: 031e4f7a8e43e4c4c80f26d6ead3905d,
     type: 3}
   m_PrefabInstance: {fileID: 857018879}
   m_PrefabAsset: {fileID: 0}
@@ -2506,8 +2506,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ahora busca una superficie plana como el piso o una mesa, ver\xE1s una
-    superficie azul."
+  m_Text: Now look for a flat surface like the floor or a table, you will see a blue
+    surface.
 --- !u!222 &863675026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2584,7 +2584,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Terminar tutorial
+  m_Text: Finish tutorial
 --- !u!222 &893185301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2722,9 +2722,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
     m_FontSize: 32
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -2734,7 +2734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continuar
+  m_Text: Continue
 --- !u!222 &926200742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2950,8 +2950,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121, y: -1.6}
-  m_SizeDelta: {x: 541.9541, y: 100.138885}
+  m_AnchoredPosition: {x: 122.9, y: -1.6}
+  m_SizeDelta: {x: 502.21204, y: 100.138885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1036419198
 MonoBehaviour:
@@ -2972,9 +2972,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -2984,9 +2984,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'El sol se opaca cuando no hay suficiente brillo para el pietrario
-
-'
+  m_Text: "\rThe sun dulls when there is not enough brightness for the plants"
 --- !u!222 &1036419199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3421,8 +3419,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Una vez que veas el circulo azul, tocas la pantalla y se pondr\xE1 tu
-    pietrario! Ahora lo puedes ver."
+  m_Text: "\rOnce you see the blue circle, touch the screen and it will put your
+    stone on! Now you can see it."
 --- !u!222 &1080870919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3487,9 +3485,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
     m_FontSize: 32
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -3499,7 +3497,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pasar a AR
+  m_Text: "\rGo to AR"
 --- !u!222 &1125773584
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5011,6 +5009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transition: {fileID: 857018880}
+  realTimeCounter: {fileID: 0}
 --- !u!1 &2002094006
 GameObject:
   m_ObjectHideFlags: 0
@@ -5067,7 +5066,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -5079,7 +5078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nivel de Lux
+  m_Text: Sun Level
 --- !u!222 &2002094009
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5144,9 +5143,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 29ed6df4a905d234fa1dcb6d7275ea66, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -5156,7 +5155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Bienvenido, ac\xE1 puedes asolear tu pietrario y verlo con tu c\xE1mara!"
+  m_Text: Welcome, here you can sun your plants and see it with your camera!
 --- !u!222 &2027220048
 CanvasRenderer:
   m_ObjectHideFlags: 0

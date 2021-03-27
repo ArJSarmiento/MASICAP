@@ -52,6 +52,10 @@ public class SucculentPersistance: MonoBehaviour {
     private GameObject succ1, succ2, succ3;
     private int conActivator1 = 4, conActivator2 = 4, conActivator3 = 4;
     private GameObject guardian;
+    [SerializeField] InventoryController inventory;
+    public bool _can1;
+    public bool _can2;
+    public bool _can3;
 
     void Start() {
         pietrario = (Pietrario) PietrarioRepository.LoadPietrarios()[0];
@@ -80,7 +84,7 @@ public class SucculentPersistance: MonoBehaviour {
         }
         renderSucculent();
     }
-    //Actualiza el nivel de luz según se requiera
+    //Update the light level as required
     public void updateSunLight() {
         long timeDelta = DateTime.Now.Ticks - pietrario.dtL;
         TimeSpan timePassed = new TimeSpan(timeDelta);
@@ -193,12 +197,16 @@ public class SucculentPersistance: MonoBehaviour {
         suc3.enabled = false;
         succulentLive3.enabled = false;
 
-        can1.SetActive(false);
+    /*    can1.SetActive(false);
         can2.SetActive(false);
         can3.SetActive(false);
         noCan1.SetActive(true);
         noCan2.SetActive(true);
-        noCan3.SetActive(true);
+        noCan3.SetActive(true);*/
+
+        _can1 = false;
+        _can2 = false;
+        _can3 = false;
 
         activator1.SetActive(false);
         activator2.SetActive(false);
@@ -235,8 +243,9 @@ public class SucculentPersistance: MonoBehaviour {
             }
 
 
-            can1.SetActive(true);
-            noCan1.SetActive(false);
+            // can1.SetActive(true);
+            // noCan1.SetActive(false);
+            _can1 = true;
         } else {
             Destroy(succ1);
         }
@@ -268,8 +277,9 @@ public class SucculentPersistance: MonoBehaviour {
             }
 
 
-            can2.SetActive(true);
-            noCan2.SetActive(false);
+            // can2.SetActive(true);
+            // noCan2.SetActive(false);
+            _can2 = true;
         } else {
             Destroy(succ2);
         }
@@ -302,8 +312,9 @@ public class SucculentPersistance: MonoBehaviour {
             }
 
 
-            can3.SetActive(true);
-            noCan3.SetActive(false);
+        /*    can3.SetActive(true);
+            noCan3.SetActive(false);*/
+            _can3 = true;
         } else {
             Destroy(succ3);
         }
@@ -441,18 +452,24 @@ public class SucculentPersistance: MonoBehaviour {
     //Permite llevar todo el control sobre el agua de cada suculenta
     public void updateWaterLevel(String suctype) {
 
-        if (suctype == "SUC1") {
-            pietrario.s1wl = 100f;
-            renderSucculent();
-            pietrario.Save();
-        } else if (suctype == "SUC2") {
-            pietrario.s2wl = 100f;
-            renderSucculent();
-            pietrario.Save();
-        } else if (suctype == "SUC3") {
-            pietrario.s3wl = 100f;
-            renderSucculent();
-            pietrario.Save();
+        if(suctype!=null)
+        {
+            if (suctype == "SUC1" && _can1) {
+                pietrario.s1wl = 100f;
+                inventory.waterSucculentt(suctype);
+                renderSucculent();
+                pietrario.Save();
+            } else if (suctype == "SUC2" && _can2) {
+                pietrario.s2wl = 100f;
+                inventory.waterSucculentt(suctype);
+                renderSucculent();
+                pietrario.Save();
+            } else if (suctype == "SUC3"&& _can3) {
+                pietrario.s3wl = 100f;
+                inventory.waterSucculentt(suctype);
+                renderSucculent();
+                pietrario.Save();
+            }           
         }
     }
 

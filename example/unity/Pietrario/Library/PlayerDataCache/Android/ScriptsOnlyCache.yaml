@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - AddSuculentPanelVisibility
     - BackButton
     - ChangeScenes
-    - GradientScript
     - InfoManager
     - InventoryController
     - InventorySlides
@@ -27,7 +26,6 @@ ScriptsOnlyBuild:
     - UpdateSucButton3
     - canvasVisibility
     Unity.Rider.Editor.dll:
-    - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
@@ -37,6 +35,11 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -57,6 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
@@ -90,53 +94,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11612}
+      Script: {instanceID: 11672}
     - Class: 114
-      Script: {instanceID: 11814}
+      Script: {instanceID: 11888}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12006}
+      Script: {instanceID: 12104}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 12228}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 12678}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12790}
+      Script: {instanceID: 12810}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12930}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 13028}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 13162}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13226}
+      Script: {instanceID: 13196}
     - Class: 114
-      Script: {instanceID: 13370}
+      Script: {instanceID: 13386}
     - Class: 114
-      Script: {instanceID: 13480}
+      Script: {instanceID: 13536}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13656}
     - Class: 114
-      Script: {instanceID: 13488}
+      Script: {instanceID: 13662}
+    - Class: 114
+      Script: {instanceID: 13664}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -152,8 +158,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
       Script: {instanceID: 0}
     Assets/Scenes/NewPietrarioScene.unity:
     - Class: 1
@@ -181,29 +185,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11862}
+      Script: {instanceID: 11948}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13480}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13656}
+    - Class: 114
+      Script: {instanceID: 13662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,8 +225,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
       Script: {instanceID: 0}
     Assets/Scenes/PietrarioListScene.unity:
     - Class: 1
@@ -248,25 +252,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12654}
+      Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13480}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13656}
+    - Class: 114
+      Script: {instanceID: 13662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -282,8 +288,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
       Script: {instanceID: 0}
     Assets/Scenes/PietrarioScene.unity:
     - Class: 1
@@ -317,49 +321,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11180}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11288}
     - Class: 114
-      Script: {instanceID: 11306}
+      Script: {instanceID: 11356}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11486}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11714}
+      Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 11790}
+      Script: {instanceID: 11858}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12062}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12386}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13362}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13480}
+      Script: {instanceID: 13528}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13564}
     - Class: 114
-      Script: {instanceID: 13512}
+      Script: {instanceID: 13656}
+    - Class: 114
+      Script: {instanceID: 13662}
+    - Class: 114
+      Script: {instanceID: 13688}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -387,13 +395,23 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -404,32 +422,38 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11888}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11994}
     - Class: 114
-      Script: {instanceID: 12410}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12432}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13480}
+      Script: {instanceID: 13554}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13566}
+    - Class: 114
+      Script: {instanceID: 13656}
+    - Class: 114
+      Script: {instanceID: 13662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -442,8 +466,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -544,6 +566,12 @@ ScriptsOnlyBuild:
     className: XRGeneralSettings
   - hash:
       serializedVersion: 2
+      Hash: fc9fbe84dfc8979993a99d11baf2a29b
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRBuildSettings
+  - hash:
+      serializedVersion: 2
       Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -622,6 +650,12 @@ ScriptsOnlyBuild:
     className: ARPlaneManager
   - hash:
       serializedVersion: 2
+      Hash: a9929eb283202738e8ec9a2be9d18701
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRSettings
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -670,7 +704,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 7aa6ec2aad5bb122f7fdce19fb745add
+      Hash: 6318cb3b71c0a8c84b41a9d8ff602597
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TutorialManager
@@ -692,6 +726,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRLoader
   - hash:
       serializedVersion: 2
       Hash: e8733e39efa851172df1c9eaef062265
@@ -796,7 +836,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: ff4078d62f3c524f45fe582b85febbb5
+      Hash: 74134162bfaa20b3af2170b50f13623d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SucculentPersistance
@@ -946,7 +986,7 @@ ScriptsOnlyBuild:
     className: ARTrackedImage
   - hash:
       serializedVersion: 2
-      Hash: a98a1f59d1b6da8b89bace3761c68284
+      Hash: 48c384a2da57b6bb04a66e79d4a38bf4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeScenes
@@ -1144,6 +1184,12 @@ ScriptsOnlyBuild:
     className: XRManagerSettings
   - hash:
       serializedVersion: 2
+      Hash: 3bfdd2b07bbd77314ed3b2a142269ad9
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRGestures
+  - hash:
+      serializedVersion: 2
       Hash: 4ef0f7d42cdb13479386e1f049c315aa
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -1162,7 +1208,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: a98a1f59d1b6da8b89bace3761c68284
+      Hash: 968f10185fe79fc6fd322d8a1e148594
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelLoader
@@ -1186,7 +1232,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 9d3d42a62088a393d5e34ade6b48c6f7
+      Hash: da50fc14567ac8ab20aa20e6f9cdbc7f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RealTimeCounter
@@ -1215,4 +1261,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/PietrarioListScene.unity
   - Assets/Scenes/PietrarioScene.unity
   - Assets/Scenes/ARScene.unity
-  playerPath: C:/Users/Cristian Arenas C/Desktop/pietrario/example/unity/Pietrario/Builds/Pietrario_release.apk
+  playerPath: D:/RESEARCH QUANTI 2020-2021/Code/pietrario/example/unity/Pietrario/MASICAP.apk
