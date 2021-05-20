@@ -21,5 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ARScene.unity
     guid: 578ee4ca7e2350f499724ff3604e90fa
   m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: aa90ce5422cc96546919b0f17c37e43c,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c84311bbdf31fbb4b88566c28c0ceed1,
       type: 2}
