@@ -2071,8 +2071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1439425f0cb65904fb7831906310e9d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pietrario: {fileID: 247409654700670440, guid: 139f1f2aec59f514394037b44b29073c,
-    type: 3}
+  pietrario: {fileID: 1193304534}
 --- !u!1 &728171203
 GameObject:
   m_ObjectHideFlags: 0

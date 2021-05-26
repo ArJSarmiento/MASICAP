@@ -35,7 +35,10 @@ public class RealTimeCounter: MonoBehaviour {
     public canvasVisibility _canvasVisibility;
 
     //Inicializa, instacia, y realiza una vez
-    void Start() {
+    void Start() 
+    {
+        Application.runInBackground = true;
+
         if (PlayerPrefs.GetInt("canTime", 2) == 2) 
         {
             PlayerPrefs.SetInt("canTime", 1);
@@ -271,6 +274,22 @@ public class RealTimeCounter: MonoBehaviour {
                 }
             }           
         }
+    }
+
+    void OnApplicationFocus (bool isGameFocus)
+    {
+            if (isGameFocus) {
+                if (canTime)
+                {
+                    timer = TimeMaster.instance.CheckDate()[1];
+                    timer -= TimeMaster.instance.CheckDate()[0];  
+                }
+                else
+                {
+                    timer = PlayerPrefs.GetFloat("pauseTime", 0f);   
+                    timerLabel.text = Formatting();         
+                }
+            } 
     }
 
     bool AreAllRestActive()

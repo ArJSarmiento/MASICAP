@@ -260,6 +260,12 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.10f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
  </Reference>
@@ -607,6 +613,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{818512bb-6fff-3240-2960-a07561db0a52}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{b8a6f519-38be-4a29-02c7-cccf78602bd2}</Project>
       <Name>Unity.XR.Management</Name>
@@ -635,9 +645,9 @@
       <Project>{78a77c73-ebcd-9a8c-b82c-ab3b705f4784}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.InteractionSubsystems.csproj">
-      <Project>{6e0f2b70-2808-a98e-0f58-a77298449c80}</Project>
-      <Name>Unity.XR.InteractionSubsystems</Name>
+    <ProjectReference Include="Unity.XR.ARCore.csproj">
+      <Project>{48152593-82fb-2e53-0a36-db9bdd3ac6b8}</Project>
+      <Name>Unity.XR.ARCore</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
       <Project>{0af79414-e44b-f05a-adfe-a7cba1bbbafa}</Project>
@@ -654,6 +664,10 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{c2f90bbd-b2b5-5028-7143-ccf8d8c84942}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
+      <Project>{fbd7510d-5cd5-6664-28e0-6adcb00b72c0}</Project>
+      <Name>Unity.XR.ARCore.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{534c3126-c628-f8a8-ef61-514253df10b2}</Project>
@@ -687,17 +701,9 @@
       <Project>{8a8644a5-6ddd-0fb6-de90-bf2f383ae3dd}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.WindowsMixedReality.Editor.csproj">
-      <Project>{04b1b862-e7cd-4da3-ffe2-cf7f35e5d8d4}</Project>
-      <Name>Unity.XR.WindowsMixedReality.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{4f9917d2-178a-5a8f-2951-045c27f2b682}</Project>
       <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.WindowsMixedReality.csproj">
-      <Project>{98f7153c-0948-bccf-0b64-5c4a73f3b6a2}</Project>
-      <Name>Unity.XR.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{a2c49327-3715-8c4e-5314-baf1847d6874}</Project>

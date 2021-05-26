@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class ChangeScenes: MonoBehaviour {
     public Animator transition;
     public RealTimeCounter realTimeCounter;
+    public GameObject noAR_panel;
 
     public void ChangeSceneStart() {
         ChangeSceneWithTransition(0);
@@ -29,11 +30,22 @@ public class ChangeScenes: MonoBehaviour {
     }
 
     public void ChangeSceneAR() {
-        realTimeCounter.SaveRest();
+        if (PlayerPrefs.GetInt("CanAr", 0) == 1)
+        {
+            realTimeCounter.SaveRest();
 
-        ChangeSceneWithTransition(4);
+            ChangeSceneWithTransition(4);            
+        }
+        else
+        {
+            noAR_panel.SetActive(true);
+        }
     }
 
+    public void CloseNoAR(){
+        noAR_panel.SetActive(false);
+    }
+    
     private void ChangeSceneWithTransition(int sceneIndex) {
         StartCoroutine(LoadNewSceneCoroutine(sceneIndex));
     }
