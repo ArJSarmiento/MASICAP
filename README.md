@@ -8,7 +8,7 @@
    - ### ASSURANCE 
    - ### PROGRAM
 ---
- It is a mobile productivity app through the integration of the Pomodoro Technique, Gamification and Augmented Reality. It was made in the Unity Game Engine for the study MASICAP: an Android-based Real-time Productivity App through the integration of the Pomodoro Technique, Gamification and Augmented Reality.
+ It is a mobile productivity app through the integration of the Pomodoro Technique, Gamification and Augmented Reality. It was made in the Unity Game Engine version 2019.3.10f1 for the study MASICAP: an Android-based Real-time Productivity App through the integration of the Pomodoro Technique, Gamification and Augmented Reality.
 ---
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/51107145/128626638-47c6678d-b331-4774-b47a-952621a061df.png" width="50%" height="50%">
