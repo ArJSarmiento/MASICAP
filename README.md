@@ -2,7 +2,7 @@
  ## Stands for 
    - ### MOBILE
    - ### ACADEMIC
-   - ### SYSTEM-
+   - ### SYSTEM
    - ### INTEGRATED
    - ### COMPETENCE
    - ### ASSURANCE 
